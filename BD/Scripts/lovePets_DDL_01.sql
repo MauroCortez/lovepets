@@ -57,7 +57,6 @@ CREATE TABLE Atendimento
 	,idVeterinario		INT FOREIGN KEY REFERENCES Veterinario(idVeterinario)
 	,idPet				INT FOREIGN KEY REFERENCES Pet (idPet)
 	,Descricao			TEXT NOT NULL
-	,DataAtendimento	DATE NOT NULL
-	,HoraAtendimento	SMALLDATETIME NOT NULL
+	,DataAtendimento	SMALLDATETIME NOT NULL
 );
 GO
