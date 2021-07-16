@@ -9,7 +9,7 @@ namespace senai_lovePets_webApi.Interfaces
     interface IUsuarioRepository
     {
 
-        List<Usuario> List();
+        List<Usuario> Listar();
 
         Usuario BuscarPorId(int idUsuario);
 

@@ -8,7 +8,7 @@ namespace senai_lovePets_webApi.Interfaces
 {
     interface IDonoRepository
     {
-        List<Dono> List();
+        List<Dono> ListarTodos();
 
         Dono BuscarPorId(int idDono);
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 #nullable disable
 
@@ -15,7 +16,11 @@ namespace senai_lovePets_webApi.Domains
 
         public int IdUsuario { get; set; }
         public int? IdTipoUsuario { get; set; }
+
+        [Required(ErrorMessage = "O campo E-mail é obrigatório!")]
         public string Email { get; set; }
+
+        [Required(ErrorMessage = "O campo Senha é obrigatório!")]
         public string Senha { get; set; }
 
         public virtual TipoUsuario IdTipoUsuarioNavigation { get; set; }
