@@ -9,7 +9,7 @@ namespace senai_lovePets_webApi.Interfaces
     interface ITipoPetRepository
     {
 
-        List<TipoPet> List();
+        List<TipoPet> ListarTodos();
 
         TipoPet BuscarPorId(int idTipoPet);
 

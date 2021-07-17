@@ -9,7 +9,7 @@ namespace senai_lovePets_webApi.Interfaces
     interface IVeterinarioRepository
     {
 
-        List<Veterinario> List();
+        List<Veterinario> ListarTodos();
 
         Veterinario BuscarPorId(int idVeterinario);
 
