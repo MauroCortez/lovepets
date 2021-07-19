@@ -92,5 +92,4 @@ namespace senai_lovePets_webApi.Controllers
             }
         }
     }
-    }
 }

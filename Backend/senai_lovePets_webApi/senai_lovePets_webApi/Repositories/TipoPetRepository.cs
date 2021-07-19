@@ -47,7 +47,7 @@ namespace senai_lovePets_webApi.Repositories
 
 
 
-        public List<TipoPet> List()
+        public List<TipoPet> ListarTodos()
         {
             return ctx.TipoPets.ToList();
         }

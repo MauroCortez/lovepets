@@ -55,7 +55,7 @@ namespace senai_lovePets_webApi.Repositories
             ctx.SaveChanges();
         }
 
-        public List<Usuario> List()
+        public List<Usuario> ListarTodos()
         {
             return ctx.Usuarios.ToList();
         }

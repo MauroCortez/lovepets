@@ -7534,19 +7534,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mauro\\.nuget\\packages\\": {}
+    "C:\\Users\\45763910893\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mauro\\Desktop\\lovePets\\Backend\\senai_lovePets_webApi\\senai_lovePets_webApi\\senai_lovePets_webApi.csproj",
+      "projectUniqueName": "C:\\Users\\45763910893\\Desktop\\lovePets\\Backend\\senai_lovePets_webApi\\senai_lovePets_webApi\\senai_lovePets_webApi.csproj",
       "projectName": "senai_lovePets_webApi",
-      "projectPath": "C:\\Users\\mauro\\Desktop\\lovePets\\Backend\\senai_lovePets_webApi\\senai_lovePets_webApi\\senai_lovePets_webApi.csproj",
-      "packagesPath": "C:\\Users\\mauro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mauro\\Desktop\\lovePets\\Backend\\senai_lovePets_webApi\\senai_lovePets_webApi\\obj\\",
+      "projectPath": "C:\\Users\\45763910893\\Desktop\\lovePets\\Backend\\senai_lovePets_webApi\\senai_lovePets_webApi\\senai_lovePets_webApi.csproj",
+      "packagesPath": "C:\\Users\\45763910893\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\45763910893\\Desktop\\lovePets\\Backend\\senai_lovePets_webApi\\senai_lovePets_webApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mauro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\45763910893\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7621,7 +7621,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -45,7 +45,7 @@ namespace senai_lovePets_webApi.Repositories
             ctx.SaveChanges();
         }
 
-        public List<Veterinario> List()
+        public List<Veterinario> ListarTodos()
         {
             return ctx.Veterinarios.ToList();
         }
