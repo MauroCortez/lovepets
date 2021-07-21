@@ -21,7 +21,7 @@ namespace senai_lovePets_webApi.Controllers
     {
         private IUsuarioRepository _login { get; set; }
 
-        LoginController()
+        public LoginController()
         {
             _login = new UsuarioRepository();
         }
