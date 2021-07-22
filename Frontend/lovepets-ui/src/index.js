@@ -32,7 +32,7 @@ const PermissaoAdm = ({ component : Component }) => (
 const PermissaoVet = ({ component : Component }) => (
   <Route 
     render = { props => 
-      usuarioAutenticado() && parseJwt().role === '2' ?
+      usuarioAutenticado() && (parseJwt().role === '2' || parseJwt().role === '3') ?
       <Component {...props} /> : 
       <Redirect to="/login" />
     }  
@@ -45,7 +45,6 @@ const routing = (
         <Route exact path="/" component={App} />
         <PermissaoAdm path="/atendimentos" component={Atendimentos} />
         <PermissaoVet path="/meusatendimentos" component={MeusAtendimentos} />
-        <Route path="/meusatendimentos" component={MeusAtendimentos} />
         <Route path="/login" component={Login} />
         <Route exact path="/notfound" component={NotFound} />
         <Redirect to="/notfound" />
